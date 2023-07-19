@@ -1,0 +1,61 @@
+body {
+  margin: 10px;
+}
+
+#box-div{
+  height: 300px;
+  width: 300px;
+  background-color: tomato;
+  border-radius: 10px;
+  box-shadow: 10px 10px lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+table {
+  border-collapse: collapse;
+}
+
+.header-row {
+  color: white;
+  background-color: #427fef;
+}
+
+th,
+td {
+  padding: 5px;
+  width: auto;
+}
+
+tr {
+  border-top: 1px solid  #c4dcf3;
+}
+
+tbody tr:nth-child(odd) {
+  background-color:  #eef7ff;
+}
+
+tfoot {
+  color: white;
+  background-color: #427fef;
+} */

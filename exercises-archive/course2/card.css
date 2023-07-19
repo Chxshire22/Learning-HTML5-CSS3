@@ -1,0 +1,75 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 30rem;
+  margin: 1rem 3rem;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 30px #f9f9f9;
+  transform: rotate(-5deg);
+  transition: transform 0.3s;
+}
+
+.card:hover{
+  transform: rotate(0deg);
+}
+
+p {
+  word-spacing: 0.2rem;
+  font-size: 2rem;
+  padding: 2.5rem 3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 3rem;
+  height: 11rem;
+}
+
+.profile {
+  display: flex;
+  background: rgb(116, 214, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 214, 144, 1) 0%,
+    rgba(92, 191, 187, 1) 35%
+  );
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+.profile-pic{
+  margin-left: 5rem;
+  border: 4px solid #ffff;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background: url("../images/random.jpg") ;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s;
+}
+
+.card:hover .profile-pic{
+  transform: scale(1.15);
+}
+
+.name{
+  height: fit-content;
+  text-align: center;
+  color: #ffff;
+  margin: 0 0.8rem;
+  padding: 0;
+  vertical-align: middle;
+}

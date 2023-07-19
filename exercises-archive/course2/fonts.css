@@ -1,0 +1,55 @@
+html{
+  font-size: 62.5%;
+}
+
+
+body{
+  font-size: 1.6rem;
+  padding: 20px;
+  margin: 0;
+  font-family: 'JetBrains Mono', Courier, monospace;
+}
+
+h1,h2,h3{
+  font-family: 'Rubik Mono One', Courier, monospace;
+}
+
+.container{
+  /* display: flex;
+  flex-direction: column; */
+  /* border: 3px solid black; */
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .page-item{
+  margin-left: 5rem;
+} */
+.description{
+  margin-bottom: 3rem;
+  font-style: italic;
+  font-size: 1.75rem;
+}
+
+img{
+  width: 100%;
+}
+
+ul { 
+  margin-top: 1rem;
+}
+
+h3{
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width:1024px) {
+  body{
+    font-size: 1.953rem;
+  }
+  /* h1,h2,h3{
+    font-size: 150%;
+  } */
+}

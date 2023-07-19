@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 10px;
+}
+
+.container{
+  border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.box{
+  flex-basis: 15rem;
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+  flex: 1 15rem;
+  width: 5rem;
+  height: 5rem;
+  background: gold;
+  margin: 1rem;
+}
+
+.box1{
+  /* flex-basis: 5rem; */
+  /* flex-grow: 2; */
+  flex-shrink: 0;
+}
